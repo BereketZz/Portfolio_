@@ -30,7 +30,8 @@ const Hero = () => {
        */}
       <div
         className="h-screen w-full dark:bg-black-100 bg-white dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2]
-       absolute top-0 left-0 flex items-center justify-center">
+       absolute top-0 left-0 flex items-center justify-center"
+      >
         {/* Radial gradient for the container to give a faded look */}
         <div
           // chnage the bg to bg-black-100, so it matches the bg color and will blend in
@@ -49,13 +50,11 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Code with Passion, Create with Purpose."
+            words="Hi👋 I'm Bereket Zewde, a FullStack Web Developer"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Bereket, a FullStack Web Developer based in Ethiopia.
-          </p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl"></p>
 
           <a href="#about">
             <MagicButton

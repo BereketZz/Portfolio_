@@ -77,7 +77,7 @@ export const projects = [
     des: "Custom Prints is a web app that lets users create custom-designed shirts by adding logos or photos to a 3D template.",
     img: "/site1.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg"],
-    link: "https://github.com/BereketZz/CustomPrints.git",
+    link: "https://custom-prints.netlify.app/",
   },
   {
     id: 2,
@@ -91,10 +91,18 @@ export const projects = [
       "/firebase.svg",
       "/tf.png",
     ],
-    link: "https://github.com/BereketZz/AMU-Metro.git",
+    link: "https://amu-metro-amu.netlify.app/",
   },
   {
     id: 3,
+    title: "Sekela Tech Solution",
+    des: "A Portfolio website for a local Start up",
+    img: "/sekela.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://main--sekela-tech.netlify.app/",
+  },
+  {
+    id: 4,
     title: "About Abune gorgorios school management system",
     des: "school management system",
     img: "/login.png",
@@ -102,7 +110,7 @@ export const projects = [
     link: "https://github.com/danielkeb/Abune_Gorgoriwos_school_maangement_system.git",
   },
   {
-    id: 4,
+    id: 5,
     title: "Exercise Tracker",
     des: "During my FreeCodeCamp course, I developed an Exercise Tracker project using Express and MongoDB. ",
     img: "/exe.jpg",
