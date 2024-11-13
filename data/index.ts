@@ -91,7 +91,7 @@ export const projects = [
       "/firebase.svg",
       "/tf.png",
     ],
-    link: "https://amu-metro-amu.netlify.app/",
+    link: "https://github.com/BereketZz/AMU-Metro.git",
   },
   {
     id: 3,
